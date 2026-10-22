@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vibe Coding — Course Readers</title>
+<meta name="description" content="Two course readers by Dr Vipul Mathur: Layers of Language, on how software works from voltages to plain English, and Good Enough to Build, a practical guide to vibe coding.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;600&family=Playfair+Display:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+  :root{--ink:#141414;--accent:#1D6B55;--slate:#2F4B66;--mid:#6B665E;--rule:#BDB6AA;--paper:#F3EEE6;--bg:#FFFFFF}
+  @media (prefers-color-scheme: dark){:root{--ink:#EDEAE4;--accent:#5FB39A;--mid:#A8A29A;--slate:#9DB4CB;--rule:#4A463F;--paper:#1F1D1A;--bg:#141414}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:400 18px/1.6 "Source Serif 4",Georgia,serif}
+  .wrap{max-width:1040px;margin:0 auto;padding:56px 16px 72px}
+  .kicker{font:600 12px/1 "Libre Franklin",sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+  h1{font:400 clamp(36px,6vw,58px)/1.08 "Playfair Display",serif;margin:14px 0 18px}
+  .rule{width:56px;height:2px;background:var(--accent);margin:0 0 20px}
+  .lede{font:300 20px/1.5 "Libre Franklin",sans-serif;color:var(--slate);max-width:680px;margin:0}
+  .beta{display:inline-block;margin-top:18px;font:600 12px/1 "Libre Franklin",sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);padding:6px 9px;border-radius:2px}
+  .author{font:400 15px/1.5 "Libre Franklin",sans-serif;color:var(--mid);margin-top:22px}
+  .author strong{color:var(--ink);font-weight:600}
+  .books{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:40px;margin-top:56px}
+  .book{border-top:2px solid var(--accent);padding-top:22px}
+  .book img{width:100%;max-width:340px;display:block;box-shadow:0 1px 0 var(--rule),0 12px 28px rgba(0,0,0,.18);margin-bottom:22px}
+  .book h2{font:700 26px/1.2 "Playfair Display",serif;margin:6px 0 10px}
+  .book p{margin:0 0 16px;color:var(--ink)}
+  .meta{font:400 13px/1.4 "Libre Franklin",sans-serif;color:var(--mid);margin-bottom:16px}
+  .btn{display:inline-block;font:600 14px/1 "Libre Franklin",sans-serif;letter-spacing:.04em;color:#fff;background:#1D6B55;padding:12px 18px;text-decoration:none;border-radius:2px}
+  .btn:hover{filter:brightness(1.1)}
+  footer{margin-top:72px;padding-top:18px;border-top:1px solid var(--rule);font:400 13px/1.5 "Libre Franklin",sans-serif;color:var(--mid);display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+  footer img{height:22px}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="kicker">A course in vibe coding</div>
+  <h1>Two readers: how software works, and how to build it with AI</h1>
+  <div class="rule"></div>
+  <p class="lede">The first explains how software works, layer by layer, from the voltages inside a chip to a sentence of plain English typed to an AI agent. The second is the practical guide: taking an idea to a working, shipped app with an AI coding agent, safely.</p>
+  <span class="beta">Beta edition · October 2026</span>
+  <p class="author"><strong>Dr Vipul Mathur</strong> · IIT Delhi · IIM Bangalore · IIM Calcutta · Ailadyn AI</p>
+
+  <section class="books">
+    <article class="book">
+      <a href="Layers-of-Language.pdf"><img src="assets/layers-cover.png" alt="Cover of Layers of Language"></a>
+      <div class="kicker">Volume one · how software works</div>
+      <h2>Layers of Language</h2>
+      <p>How software works, from voltages to plain English. Twelve illustrated chapters on the history of programming, from Jacquard's loom to AI agents, for readers with no technical background.</p>
+      <div class="meta">PDF · 207 pages · 28 MB</div>
+      <a class="btn" href="Layers-of-Language.pdf">Read the book (PDF)</a>
+    </article>
+    <article class="book">
+      <a href="Good-Enough-to-Build.pdf"><img src="assets/goodenough-cover.png" alt="Cover of Good Enough to Build"></a>
+      <div class="kicker">Volume two · the practice</div>
+      <h2>Good Enough to Build</h2>
+      <p>A practical guide to vibe coding. Twelve chapters built around a real app made with an AI agent, with every prompt, error and fix shown as it happened, plus cheat sheets and checklists.</p>
+      <div class="meta">PDF · 226 pages · 10 MB</div>
+      <a class="btn" href="Good-Enough-to-Build.pdf">Read the book (PDF)</a>
+    </article>
+  </section>
+
+  <footer><img src="assets/ailadyn.png" alt="Ailadyn AI logo"><span>© 2026 Vipul Mathur · Ailadyn AI · Beta edition; corrections are welcome.</span></footer>
+</main>
+</body>
+</html>
